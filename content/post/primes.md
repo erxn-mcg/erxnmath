@@ -1,6 +1,6 @@
 ---
 title: "Understanding Primes"
-date: 2021-12-19
+date: 2021-12-26
 tags: ["prime numbers", "maths", "number theory"]
 draft: false
 ---
@@ -18,21 +18,20 @@ There is often confusion over whether 1 is a prime number or not: 1 is not consi
 
 In a 1975 lecture, D. Zagier commented, 
 > 'Despite their simple definition and role as the building blocks of the natural numbers, the prime numbers grow like weeds among the natural numbers, seeming to obey no other law than that of chance, and nobody can predict where the next one will sprout.' 
+
 While this is the case, prime numbers also follow rules with strict conformity! However, it is the **finding** and the **proving** of these rules being incredibly difficult which make prime numbers as interesting and mysterious as they are. 
 
 To start of nice and simply, almost everyone will be able to reel off a list of the first few prime numbers: `2, 3, 5, 7, 11, 13 ...` and so on. Even by looking at this list of 6 integers, we can clearly see the lack of uniformity in the distribution of the primes where they increase by **+1**, then **+2**, then **+2** again, then **+4**, and then back to **+2**. This is very messy and there is no *concrete proof* to describe when the next prime is going to crop up. Existing theorems are either very *contrived* and therefore practically unhelpful, or simply tackle a very *general* property of primes, such as that they are all - except 2 and 3 - either 1 more or 1 less than a multiple of 6.
 
 One thing that we are certain of however, is that there are infinite primes. This may seem counterintuitive as you would think that as numbers get larger, there is a lower probability of ot being prime since there are more numbers smaller than it which could be factors of it, but actually primes go on forever. And, to make things even better, the proof of this is incredibly elegant:
 > If we were to assume that there was a **finite** number of primes, with the largest being __*p<sub>n</sub>*__:
-> - We could say that some integer N is the product of all these primes plus 1: N = p<sub>1</sub> x p<sub>2</sub> x ... x p<sub>n</sub> +1
+> - We could say that some integer __*N*__ is the product of all these primes __*plus 1*__: N = __*p<sub>1</sub>*__ x __*p<sub>2</sub>*__ x ... x __*p<sub>n</sub> +1*__
+> 
 > Since all composite numbers can be written as a product of two or more primes, we can conclude that:
-> - N is not divisible by any primes in the list since there will always be a remainder of 1
-> Therefore, N must be either a prime itself, or divisible by a prime that is greater than p<sub>n</sub>
+> - __*N*__ is not divisible by any primes in the list since there will always be a remainder of 1
+> 
+> Therefore, __*N*__ must be either a prime itself, or divisible by a prime that is greater than __*p<sub>n</sub>*__
 > ***
 > This contradicts our initial assumption, meaning that there must be an infinite number of primes!
 
-## Primes in Nature
 
-## Primes in Cryptography
-
-## The Future of Primes
